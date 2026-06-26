@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Water Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>💧 Water Tracker</h1>
+
+<div class="progress">
+
+    <div id="progressBar"></div>
+
+</div>
+
+
+<h2 id="amount">
+    0 ml / 2500 ml
+</h2>
+
+
+<button class="water" data-amount="250">
+    +250 ml
+</button>
+
+<button class="water" data-amount="500">
+    +500 ml
+</button>
+
+
+<input 
+    id="customAmount"
+    type="number"
+    placeholder="Custom ml"
+>
+
+
+<button id="addCustom">
+    Add
+</button>
+
+
+<button id="reset">
+    Reset Day
+</button>
+
+
+<script src="popup.js"></script>
+
+</body>
+
+</html>
