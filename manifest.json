@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Water Tracker",
+  "version": "1.0",
+  "description": "Track daily water consumption",
+  
+  "permissions": [
+    "storage"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Water Tracker"
+  },
+
+  "icons": {
+    "128": "icon.png"
+  }
+}
